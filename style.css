@@ -18,9 +18,13 @@ body {
 header {
     display: flex;
     border-bottom: 1px solid seashell;
+    background-color: black;
     height: 69px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 10;
 }
 
 .logo {
