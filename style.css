@@ -1,0 +1,152 @@
+/* Universal styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.heading-container {
+    position: absolute;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.ulist {
+    list-style: none;
+}
+
+.ulist li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.ulist li a {
+    color: seashell;
+}
+
+/* Mission */
+.missions {
+    display: flex;
+    justify-content: center;
+}
+
+.missions .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.missions .heading-container {
+    width: 1200px;
+    background-color: black;
+}
+
+.missions-banner {
+    height: 700px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+/* Featured Tea */
+.featured {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.featured .container {
+    width: 1000px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.img-container figure {
+    margin: 0;
+}
+
+.img-container figcaption h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Locations */
+.locations {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.locations img {
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+.locations-list {
+    position: absolute;
+    display: flex;
+    opacity: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-box {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin: 70px 40px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.contact h5 {
+    margin: 40px 0;
+}
+
+.contact {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
